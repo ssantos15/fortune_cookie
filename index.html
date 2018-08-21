@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Cookie</h2>
+      </div>
+      <form id="fortuneCookie">
+        <div class="form-group">
+          <p><b>Have you had unlucky events that happened to you the past month? Check all that apply:</b></p>
+          <input type="checkbox" name="unlucky" value="ladder">Walking under a ladder<br>
+          <input type="checkbox" name="unlucky" value="black cat">Seeing a black cat<br>
+          <input type="checkbox" name="unlucky" value="stubbing">Stubbing your toe<br>
+        </div>
+        <div class="form-group">
+          <p><b>Have you had lucky events that happened to you the past month? Check all that apply:</b></p>
+          <input type="checkbox" name="lucky" value="clover">Finding a four leaf clover<br>
+          <input type="checkbox" name="lucky" value="rainbow">Seeing a rainbow<br>
+          <input type="checkbox" name="lucky" value="money">Finding money and no one claims it<br>
+        </div>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+      <div id="fortune1">
+        <p>You're on a roll! And it won't stop here!!</p>
+      </div>
+      <div id="fortune2">
+        <p>Better days are yet to come.</p>
+      </div>
+    </div>
+  </body>
+</html>
